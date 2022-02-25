@@ -1,16 +1,15 @@
 import React from "react";
 import mainLogo from "../general/img/logo192.png";
-import "./research_rc.scss";
 import Intro from "../home/components/Intro";
 import Footer from "../general/Footer";
 import Top from "../general/Top";
 
+import "./research_uiux.scss";
 
 
-
-const rc = () => {
+const uiux = () => {
   return (
-    <div className="rc">
+    <div className="uiux">
      
     <Intro/>
     <Top/>
@@ -21,4 +20,4 @@ const rc = () => {
   )
 }
 
-export default rc;
+export default uiux;

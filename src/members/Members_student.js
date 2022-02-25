@@ -1,5 +1,5 @@
 import React from "react";
-import "./Members.scss";
+import "./Members_student.scss";
 import {memberData} from "../home/components/MemberSummary";
 import {useLocation} from "react-router-dom";
 import Intro from "../home/components/Intro";
@@ -102,14 +102,14 @@ const Members = () => {
 export default Members;
 */
 
-const Members = () => {
+const Student = () => {
 
   return (
-    <div className="members">
+    <div className="members_student">
       <Intro/>
       <Footer/>
     </div>
   
   )
 }
-export default Members;
+export default Student;

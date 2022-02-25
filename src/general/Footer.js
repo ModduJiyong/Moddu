@@ -11,7 +11,7 @@ const Footer=()=>{
     <div className="boundary">
       <div className="section-company-info">
         <div className="info-group">
-          <span>Moddu</span>
+          <span>Mddu</span>
           <span className="sub">연세대학교</span>
         </div>
         <div className="info-group">

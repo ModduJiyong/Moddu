@@ -2,8 +2,8 @@ import React from "react";
 import {Link, useLocation} from "react-router-dom";
 import "./NavBar.scss";
 import logo from "./img/logo192.png";
-import Dropdown from "./Dropdown.js";
-import Dropdown_research from "./Dropdown_research.js";
+import Dropdown from "./Dropdown/Dropdown.js";
+import Dropdown_research from "./Dropdown/Dropdown_research.js";
 const NavBar=()=>{
     const location=useLocation();
     const pathNameArray=location.pathname.split("/");
@@ -26,7 +26,7 @@ const NavBar=()=>{
               </div>
               <div className="divider"/>
               <div className="publication">
-                <Link className="menu Publication" to={"/"}>Publication</Link>
+                <Link className="menu Publication" to={"/publication/Publication"}>Publication</Link>
               </div>
             </div> 
         </div>

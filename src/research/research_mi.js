@@ -1,6 +1,6 @@
 import React from "react";
 import mainLogo from "../general/img/logo192.png";
-import "./research_rc.scss";
+import "./research_mi.scss";
 import Intro from "../home/components/Intro";
 import Footer from "../general/Footer";
 import Top from "../general/Top";
@@ -8,9 +8,9 @@ import Top from "../general/Top";
 
 
 
-const rc = () => {
+const mi = () => {
   return (
-    <div className="rc">
+    <div className="mi">
      
     <Intro/>
     <Top/>
@@ -21,4 +21,4 @@ const rc = () => {
   )
 }
 
-export default rc;
+export default mi;
