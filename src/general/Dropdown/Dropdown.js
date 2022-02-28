@@ -17,7 +17,7 @@ function Dropdown(){
         <DropdownMenu > 
         
             <DropdownItem>
-            <Link className="menu Members" to ={"/members/Members"}>Professor</Link></DropdownItem> 
+            <Link className="menu Professor" to ={"/members/Member_Prof"}>Professor</Link></DropdownItem> 
 
             <DropdownItem >
             <Link className="menu Student" to ={"/members/Members_student"}>Students</Link></DropdownItem> 

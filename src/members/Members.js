@@ -4,7 +4,8 @@ import {memberData} from "../home/components/MemberSummary";
 import {useLocation} from "react-router-dom";
 import Intro from "../home/components/Intro";
 import Footer from "../general/Footer";
-import Top from "../general/Top";
+
+import Professor from "./Member_Prof";
 
 /*const memberDetail={
   "professor":[
@@ -106,7 +107,7 @@ const Members = () => {
 
   return (
     <div className="members">
-      <Intro/>
+
       <Footer/>
     </div>
   

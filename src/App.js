@@ -6,6 +6,7 @@ import Home from "./home/Home";
 import Footer from "./general/Footer";
 import Members from "./members/Members";
 import Student from "./members/Members_student";
+import Professor from "./members/Member_Prof";
 import './App.scss';
 import research_rc from "./research/research_rc";
 import research_uiux from "./research/research_uiux";
@@ -35,13 +36,15 @@ function App() {
  
       <Switch>
       <Route path={"/"} exact component={Home}/>
-      <Route path={"/members/Members"} component={Members}/>
+      <Route path={"/members/Member_Prof"} component={Professor}/>
       <Route path={"/members/Members_student"} component={Student}/>
       <Route path={"/research/research_rc"} component={research_rc}/>
       <Route path={"/research/research_uiux"} component={research_uiux}/>
       <Route path={"/research/research_mi"} component={research_mi}/>
       <Route path={"/publication/Publication"} component={Publication}/>
       </Switch>
+
+      <Footer/>
     </div>
   );
 }

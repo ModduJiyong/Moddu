@@ -4,7 +4,7 @@ import {memberData} from "../home/components/MemberSummary";
 import {useLocation} from "react-router-dom";
 import Intro from "../home/components/Intro";
 import Footer from "../general/Footer";
-import Top from "../general/Top";
+
 
 /*const memberDetail={
   "professor":[
@@ -106,8 +106,10 @@ const Student = () => {
 
   return (
     <div className="members_student">
-      <Intro/>
-      <Footer/>
+       <div>연구실 구성원 프로필 페이지</div>
+       <div>내용을 입력하면 공간이 계속 늘어납니다</div>
+   
+
     </div>
   
   )

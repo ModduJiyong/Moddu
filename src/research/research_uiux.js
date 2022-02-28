@@ -1,8 +1,6 @@
 import React from "react";
 import mainLogo from "../general/img/logo192.png";
-import Intro from "../home/components/Intro";
-import Footer from "../general/Footer";
-import Top from "../general/Top";
+
 
 import "./research_uiux.scss";
 
@@ -10,11 +8,8 @@ import "./research_uiux.scss";
 const uiux = () => {
   return (
     <div className="uiux">
-     
-    <Intro/>
-    <Top/>
-    <Footer/>
-    
+      <div>UIUX 페이지</div>
+      <div>내용을 입력하면 공간이 계속 늘어납니다</div>
 
     </div>
   )

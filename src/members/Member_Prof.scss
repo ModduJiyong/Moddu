@@ -1,11 +1,15 @@
 @import "src/general/colors";
 @import "src/general/sizes";
 
-.members_student{
+.professor{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+ 
   padding-top: 100px;
-  background-color: orange;
+ 
+
+  background-color: beige;
 
 }
