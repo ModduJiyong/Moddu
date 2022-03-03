@@ -7,12 +7,12 @@ function Dropdown_research(){
 
     const [dropdownOpen, setOpen] = useState(false); 
     const toggle = () => setOpen(!dropdownOpen);
-
-
+    const onMouseEnter=()=>setOpen(!dropdownOpen);
+    const onMouseLeave=()=>setOpen(!dropdownOpen);
     return (
         
-        <ButtonDropdown  isOpen={dropdownOpen}  toggle={toggle}> 
-        <DropdownToggle style={{backgroundColor: 'skyblue', border:0}} caret>Research</DropdownToggle>
+        <ButtonDropdown  isOpen={dropdownOpen} onMouseEnter={onMouseEnter} isClose={dropdownOpen} onMouseLeave={onMouseLeave}> 
+            <DropdownToggle style={{backgroundColor:  'white', border:0,color:"black",fontSize:"25px"}}>Research</DropdownToggle>
         <DropdownMenu> 
         
             <DropdownItem>

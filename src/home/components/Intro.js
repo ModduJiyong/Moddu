@@ -10,9 +10,14 @@ const Intro = () => {
     
     <div className="intro">
    
-     <img className="main-logo" src={mainLogo} alt="main illustration"/>
-  
-     <h1>{title}</h1>
+    <div>
+    메인화면
+    </div>
+   
+
+
+
+
     
 
     </div>

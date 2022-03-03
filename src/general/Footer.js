@@ -1,33 +1,26 @@
 import React from "react";
 import {Link, useLocation} from "react-router-dom";
 import "./Footer.scss";
-
+import logo from "./img/Logo Design_footer.png";
 const Footer=()=>{
     const location = useLocation();
     const pathNameArray = location.pathname.split("/");
     const menuName = pathNameArray[pathNameArray.length - 1];
   
-    return (<div className={`footer ${menuName ? "tone-down" : ''}`}>
+    return (
+    <div className={`footer ${menuName ? "tone-down" : ''}`}>
     <div className="boundary">
+     
       <div className="section-company-info">
         <div className="info-group">
-          <span>Mddu</span>
-          <span className="sub">연세대학교</span>
+          <span className="sub">연세대학교 의료기기 설계 및 사용적합성 연구실(MDDU)</span>
+         <p> </p>
+         <p> </p>
+          <span className="address">  06229 서울특별시 강남구 언주로 63길 20</span>
+          <span className="sub">  20, Eonju-ro 63-gil, Gangnam-gu, Seoul 06229, Korea</span>
         </div>
-        <div className="info-group">
-          <div className="info-item">
-            <span className="sub">담당교수</span>
-            <span>장원석</span>
-          </div>
-          <div className="info-item">
-            <span className="sub">사업자등록번호</span>
-            <span>xxx-0000-yyyy</span>
-          </div>
-
-        </div>
-
       </div>
-
+     <img className="logo_footer" src={logo} alt=""/>
     </div>
   </div>
 )

@@ -5,73 +5,133 @@
     position: fixed;
     z-index: 1000;
     top: 0;
-    left: 0;
+    padding-left:-283px;
+    
     width: 100%;
+    height:$nav-bar-height;
+    justify-content: center;
+    display: flex;
+    
+    background-color: white;
+    object-fit:cover;
    
-  
-    display: flex;
-    justify-content: right;
-    background-color: skyblue;
-}
-    .boundary{
-    height:  $nav-bar-height;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .logo{
-  
-      height: 24px;
-    }
-    .menu-container{
-        display: flex;
-        gap: 12px;
-        align-items: center;
-  
-        &.home .menu.home:before,
-        &.mobile .menu.mobile:before,
-        &.desktop .menu.desktop:before,
-        &.contact .menu.contact:before{
-          display: block;
-          opacity: 1;
-        }
-  
-        .divider{
-          height: 16px;
-          width: 1px;
-          background-color: $l-30;
-        }
-        .menu{
-          position: relative;
-          padding: 0px 12px;
-          color: $main-content;
-  
-          &.label{
-            color: $sub-content;
-            pointer-events: none;
+    .base-bar{
+      display: flex;
+     
+      .logo-base{
+        display:flex;
+        
+        
+        .boundary{
+          
+          height:  120px;
+      
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+         
+          .logo{
+            
+            display: flex;
+            padding-top:22px;
+            object-fit:cover;
+            
+            width: 396px;
+            height: 98px;
+            
           }
-  
-          &:hover{
+        }
+      }
+      .menu-base{
+        
+        padding-top:48px;
+        display: flex;
+        width: 959px;
+        object-fit: cover;
+        .menu-container{
+          display: flex;
+          padding-left:20px;
+          font-size:25px;
+          align-items: center;
+          width: 100%;
+          
+         
+       
+       
+         .divider{
+            height: 16px;
+            width: 1px;
+            background-color: $l-30;
+          } 
+          
+          .menu{
+            position: relative;
+            object-fit:cover;
+            color: $main-content;
+            gap:55px;
+            &.home{
+              width:142px;
+            }
+            &.members{
+              width:108px;
+              object-fit:cover;
+            }
+            &.research{
+              width:100px;
+              
+            }
+            &.publication{
+             
+              width:128px;
+             
+            }
+            &.board{
+             
+              width:76px;
+              
+            }
+            &.search{
+            
+              
+              width:35px;
+              height:35px;
+            }
+           
+    
+    
+            &.label{
+              color: $sub-content;
+              pointer-events: none;
+              
+            }
+    
+            &:hover{
+              &:before{
+                display: block;
+                opacity: 0.2;
+              }
+            }
+    
             &:before{
-              display: block;
-              opacity: 0.2;
+              position: absolute;
+              bottom: -8px;
+              left: 0px;
+              width: 100%;
+              height: 4px;
+              content: "";
+              background-color: $mdoc-ui-blue;
+              display: none;
             }
           }
-  
-          &:before{
-            position: absolute;
-            bottom: -8px;
-            left: 0px;
-            width: 100%;
-            height: 4px;
-            content: "";
-            background-color: $mdoc-ui-blue;
-            display: none;
-          }
-        }
-        .members{
-          display: flex;
+        
         }
       }
     }
+}
+
+
+   
+   
+   
+    
   

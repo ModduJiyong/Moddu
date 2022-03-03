@@ -35,6 +35,7 @@ function App() {
  
  
       <Switch>
+    
       <Route path={"/"} exact component={Home}/>
       <Route path={"/members/Member_Prof"} component={Professor}/>
       <Route path={"/members/Members_student"} component={Student}/>
@@ -42,6 +43,8 @@ function App() {
       <Route path={"/research/research_uiux"} component={research_uiux}/>
       <Route path={"/research/research_mi"} component={research_mi}/>
       <Route path={"/publication/Publication"} component={Publication}/>
+
+    
       </Switch>
 
       <Footer/>

@@ -18,16 +18,14 @@ function Dropdown(){
     return (
         
         <ButtonDropdown  isOpen={dropdownOpen} onMouseEnter={onMouseEnter} isClose={dropdownOpen} onMouseLeave={onMouseLeave}> 
-          <DropdownToggle style={{backgroundColor:  'white', border:0, color:"black", fontSize:"25px"}} >Members</DropdownToggle>
+          <DropdownToggle style={{backgroundColor:  'white', border:0, color:"black", fontSize:"25px"}} >Board</DropdownToggle>
 
     
         <DropdownMenu> 
         
             <DropdownItem>
-            <Link className="menu Professor" to ={"/members/Member_Prof"}>Professor</Link></DropdownItem> 
+            <Link className="menu board" to ={"/"}>Board</Link></DropdownItem> 
 
-            <DropdownItem >
-            <Link className="menu Student" to ={"/members/Members_student"}>Students</Link></DropdownItem> 
 
         </DropdownMenu>
 
