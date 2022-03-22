@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Moddu.git/static/css/main.30a6c0a3.css",
+    "main.js": "/Moddu.git/static/js/main.639fffc5.js",
+    "static/media/main_design_img.png": "/Moddu.git/static/media/main_design_img.340d4ac959b112878ff9.png",
+    "static/media/mddu_design.png": "/Moddu.git/static/media/mddu_design.12e77321dc9879535e97.png",
+    "static/media/Logo_sizeAdj.png": "/Moddu.git/static/media/Logo_sizeAdj.de7622d1c0314011b086.png",
+    "static/media/Yonsei_White.png": "/Moddu.git/static/media/Yonsei_White.ecfa4fbfa55399a8b8a5.png",
+    "static/media/Logo Design.png": "/Moddu.git/static/media/Logo Design.613a1c27d1a6b118b037.png",
+    "static/media/Logo_White.png": "/Moddu.git/static/media/Logo_White.8044fba2e63948b22775.png",
+    "index.html": "/Moddu.git/index.html",
+    "main.30a6c0a3.css.map": "/Moddu.git/static/css/main.30a6c0a3.css.map",
+    "main.639fffc5.js.map": "/Moddu.git/static/js/main.639fffc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30a6c0a3.css",
+    "static/js/main.639fffc5.js"
+  ]
+}
